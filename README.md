@@ -40,10 +40,4 @@ The fan speed is controlled based on the following temperature thresholds:
     sudo reboot
     ```
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Thanks to the Raspberry Pi community for the continuous support and resources.
