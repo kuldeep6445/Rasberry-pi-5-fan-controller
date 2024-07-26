@@ -17,11 +17,11 @@ def main():
     start = time.time()
     while True:
         temp = get_temp()
-        if temp > 70:
+        if temp > 60:
             speed = FanSpeed.FULL
-        elif temp > 65:
+        elif temp > 55:
             speed = FanSpeed.HIGH
-        elif temp > 60:
+        elif temp > 45:
             speed = FanSpeed.MEDIUM
         elif temp > 40:
             speed = FanSpeed.LOW
